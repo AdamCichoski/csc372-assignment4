@@ -7,20 +7,30 @@ h1{
     text-align: center;
 }
 
-#favoritesButton{
-  border-radius: 5px;
-  color: rgb(7, 7, 108);
-  background-color: aliceblue;
-  
+.favoritesIcon{
+  max-width: 15px;
+  max-height: 30px;
+  border-radius: 0px;
 }
 
-.foodItem:hover{
-  background-color: rgb(244, 212, 170);
+
+.favButton{
+  background-color: rgb(69, 207, 253);
+  border-radius: 5px;
+  color: black;
+}
+
+.favButton:hover{
+  background-color: aliceblue;
 }
 
 .pageItem, header{
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.favoritesCost{
+  text-align: center;
 }
 
 nav{
